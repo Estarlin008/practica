@@ -98,6 +98,11 @@ def añosbiciestoRango():
     else:
         print("ingrese eun numero mayor al primero")
 
+def mas():
+    e = int(input("ingrese el primer numero"))
+    f = int(input("ingrese el segundo numero"))
+    print("la suma es:" + str(e + f))
+
 def MostrarMenu():
     print("------------MENU------------")
     print("1:Convertil de peso a euro")
