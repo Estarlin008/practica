@@ -97,6 +97,13 @@ def añosbiciestoRango():
 
     else:
         print("ingrese eun numero mayor al primero")
+        
+def perro():
+    str ladra = int(input("ingrese el sonido del perro"))
+    if ladra == "guau":
+        print("el perro ladra")
+    else:
+        print("el perro no ladra")
 
 def mas():
     e = int(input("ingrese el primer numero"))
@@ -116,7 +123,8 @@ def MostrarMenu():
     print("9:Determinar si la edad de una persona si el año de nacimiento es impar")
     print("10:Los numero pares dentro de un rango")
     print("11:los años biciestos dentro de un rango")
-    print("12:salir")
+    print("12:ladra")
+    print("13:salir")
 
 while True:
     MostrarMenu()
@@ -146,5 +154,7 @@ while True:
         case 11:
             añosbiciestoRango()
         case 12:
+            perro()
+        case 13:
             print("hasta luego👋😄")
             break
