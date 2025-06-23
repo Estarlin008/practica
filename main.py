@@ -109,6 +109,15 @@ def mas():
     e = int(input("ingrese el primer numero"))
     f = int(input("ingrese el segundo numero"))
     print("la suma es:" + str(e + f))
+    
+def Mascota():
+    malo = input("es malo")
+    bueno = input("eres bueno")
+    if malo == "si":
+        print("el perro es malo")
+    elif bueno == "si":
+        print("el perro es bueno")
+    
 
 def MostrarMenu():
     print("------------MENU------------")
