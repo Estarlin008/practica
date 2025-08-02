@@ -117,7 +117,6 @@ def Mascota():
         print("el perro es malo")
     elif bueno == "si":
         print("el perro es bueno")
-    
 
 def MostrarMenu():
     print("------------MENU------------")
